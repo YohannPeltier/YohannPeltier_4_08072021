@@ -99,9 +99,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+/* contrast correction */
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -651,7 +649,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* contrast correction */
+    color: #000!important;
 }
 
 .container {
@@ -737,7 +736,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    /* contrast correction */
+    color: #000!important;
 }
 
 .portfolio-thumb {
