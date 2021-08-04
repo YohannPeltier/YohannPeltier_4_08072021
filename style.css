@@ -193,7 +193,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: #666;
 }
 
 .d-bloc .panel button:hover,
@@ -688,6 +688,19 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+}
+
+.description {
+    font-size: 22px;
+    color: #686968;
+}
+
+.citation {
+    font-style: italic;
+    color: #666;
+    border: none;
+    margin: 0;
+    padding-bottom: 0;
 }
 
 .cta-hero {
